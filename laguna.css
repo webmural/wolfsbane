@@ -1,5 +1,5 @@
 html {
-  font-size: max(1ex, 5vmax);
+  font-size: max(1em, 5vmax);
   font-family: monospace;
 }
 
@@ -7,6 +7,7 @@ body {
   display: flex;
   flex-flow: column;
   margin: auto;
+  overflow-wrap: anywhere;
 }
 
 main {
