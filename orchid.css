@@ -3,10 +3,10 @@ mark {
   background-color: darkorchid;
 }
 
-samp,
 html {
-  color: midnightblue;
-  background-color: orchid;
+  color: thistle;
+  background-color: darkorchid;
+  background-image: radial-gradient(purple, darkorchid);
 }
 
 ::selection {
@@ -21,17 +21,4 @@ html {
 
 :focus {
   outline-color: currentColor;
-}
-
-@media (prefers-color-scheme: dark) {
-  mark {
-    color: midnightblue;
-    background-color: orchid;
-  }
-
-  samp,
-  html {
-    color: lemonchiffon;
-    background-color: darkorchid;
-  }
 }
